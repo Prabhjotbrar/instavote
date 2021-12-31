@@ -14,10 +14,9 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: instavote
-    	tier: fe
+        tier: fe
     spec:
       containers:
       - image: schoolofdevops/vote:v4
