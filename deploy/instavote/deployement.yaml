@@ -19,5 +19,5 @@ spec:
         tier: fe
     spec:
       containers:
-      - image: schoolofdevops/vote:d4
+      - image: schoolofdevops/vote:v4
         name: vote
