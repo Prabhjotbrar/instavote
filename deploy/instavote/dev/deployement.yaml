@@ -7,7 +7,7 @@ metadata:
     tier: fe
   name: instavote
 spec:
-  replicas: 2
+  replicas: 1
   template:
     spec:
       containers:
