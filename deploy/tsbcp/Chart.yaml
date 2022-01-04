@@ -1,6 +1,6 @@
-name: tsbmp-compplete
+name: tsbmp-complete
 description: A Helm chart for Kubernetes
-version: 1.4.0
+version: 1.4.0-GA
 type: application
 
 dependencies:
