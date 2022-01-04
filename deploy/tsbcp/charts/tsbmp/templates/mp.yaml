@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mpcr
+  namespace: tsb
 data:
   mp_cr.yaml: |
         apiVersion: install.tetrate.io/v1alpha1
