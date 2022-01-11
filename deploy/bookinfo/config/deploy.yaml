@@ -34,7 +34,7 @@ spec:
             echo $MP_ADDRESS
             tctl config clusters set default --bridge-address ${MP_ADDRESS}:8443 --tls-insecure
             TCTL_LOGIN_ORG=tetrate TCTL_LOGIN_TENANT=tetrate TCTL_LOGIN_USERNAME=admin TCTL_LOGIN_PASSWORD=admin tctl login
-            tctl apply -f /etc/foo/config.yaml
+            tctl apply -f /etc/foo/mp_cr.yaml
       restartPolicy: Always
       volumes:
       - name: foo
