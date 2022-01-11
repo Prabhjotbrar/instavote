@@ -84,4 +84,4 @@ spec:
         rules:
           - route:
               host: "bookinfo/productpage.bookinfo.svc.cluster.local"
-              port: 80
+              port: 9080
