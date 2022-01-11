@@ -9,4 +9,4 @@ resources:
 configMapGenerator:
 - name: example-configmap-1
   files:
-  - config.property
+  - config.yaml
